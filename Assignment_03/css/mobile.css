@@ -1,0 +1,53 @@
+/* Mobile css */
+@media screen and (max-width: 576px) {
+  /* navbar */
+  #nav-bar ul {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 0;
+  }
+  #nav-bar .user-name {
+    display: none;
+  }
+  #nav-bar ul li {
+    padding: 10px 20px;
+    border: none;
+  }
+  #nav-bar ul li:last-of-type {
+    border-right: none;
+  }
+  #nav-bar ul li a.nav-item {
+    padding: 0;
+  }
+  /* Job info */
+  .info-item .wrapper {
+    height: auto;
+  }
+  /* Certificate */
+  #certificate .row {
+    border-bottom: none;
+  }
+  #certificate .row .certificate-item {
+    border-bottom: 1px solid #d6a28d;
+  }
+  #certificate .certificate-item:nth-child(2n) .content,
+  #certificate .certificate-item:nth-child(2n) .thumbnail {
+    padding-left: 0;
+    border-left: none;
+  }
+  #certificate .certificate-item:last-of-type {
+    border-bottom: none;
+  }
+  /* Dự án */
+  .project-detail.header {
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .project-item {
+    margin-bottom: 40px;
+  }
+  .project-detail {
+    border-color: #c1c1c1;
+  }
+}

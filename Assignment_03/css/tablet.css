@@ -1,0 +1,46 @@
+/* Tablet css */
+@media screen and (max-width: 992px) {
+  /* base */
+  .section-title {
+    font-size: 28px;
+    padding: 20px 0;
+  }
+  /* Navbar */
+  .user-name .content {
+    display: none;
+  }
+
+  #nav-bar ul li.user-name {
+    padding: 38px 24px;
+  }
+  /* job info */
+  .info-item .header {
+    margin-bottom: 30px;
+  }
+  /* certificate */
+  #certificate .certificate-item {
+    flex-direction: column;
+  }
+  #certificate .certificate-item:nth-child(2n) .content {
+    padding-left: 20px;
+    border-left: 2px solid #d6c08d;
+  }
+  /* project */
+  .project-item {
+    font-size: 14px;
+  }
+  #project .flex {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 576px) {
+  #job-info .row {
+    column-count: 2;
+    display: block;
+  }
+
+  #job-info .row .info-item {
+    display: inline-block;
+    width: 100%;
+  }
+}
