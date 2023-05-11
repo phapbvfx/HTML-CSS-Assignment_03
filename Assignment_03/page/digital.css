@@ -1,0 +1,107 @@
+/* base */
+:root {
+  --primary: #1900ff;
+  --secondary: #1ed2ea;
+
+  --title-border-color: #a8a8a8;
+  --border-color: #e7e7e7;
+
+  --white: #fff;
+  --black: #000;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  background-color: var(--primary);
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.row {
+  padding: 20px 0;
+}
+.flex {
+  display: flex;
+}
+
+.section {
+  background-color: var(--white);
+  padding: 16px;
+  margin-bottom: 20px;
+  flex: 1;
+}
+h2.section-title {
+  color: var(--primary);
+  font-weight: 600;
+  border-bottom: 1px solid var(--title-border-color);
+  padding-bottom: 10px;
+  font-size: 1.6rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 8px;
+}
+.sub-title {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.item-icon {
+  font-size: 1.4rem;
+  padding: 0 12px;
+  margin: 0 12px;
+}
+
+.description {
+  flex: 1;
+  padding: 6px 0;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+/* goals */
+
+#goals,
+#team {
+  flex-grow: 2;
+  flex-basis: 60%;
+}
+#goals .item {
+  border-bottom: 1px solid var(--border-color);
+}
+
+/* timeline */
+#timeline .item .item-content {
+  border-bottom: 1px dashed var(--secondary);
+  padding-left: 10px;
+  width: 100%;
+}
+#timeline .item-icon {
+  background-color: #d073ff;
+  border: 2px solid var(--title-border-color);
+  border-radius: 999px;
+
+  padding: 8px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+/* scopes */
+#scopes h3.sub-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+}

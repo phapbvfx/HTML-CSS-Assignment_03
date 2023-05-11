@@ -1,0 +1,11 @@
+@media screen and (max-width: 992px) {
+  .item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .item .item-icon {
+    font-size: 1.4rem;
+    text-align: center;
+    width: 100%;
+  }
+}
