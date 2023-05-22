@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Build a Product Landing Page</title>
+    <link
+      rel="stylesheet"
+      href="lab16.3.css"
+    />
+    <style>
+      @media screen and(max-width: 1200px) {
+        #header {
+          width: 1200px;
+          margin: 0 auto;
+        }
+      }
+      #form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body style="display: flex; flex-direction: column; justify-content: center">
+    <header
+      id="header"
+      style="position: fixed; top: 0; left: 0"
+    >
+      <img
+        src=""
+        alt=""
+        id="header-img"
+      />
+
+      <nav id="nav-bar">
+        <a
+          href="#footer"
+          class="nav-link"
+        ></a
+        ><a
+          href="#footer"
+          class="nav-link"
+        ></a
+        ><a
+          href="#form"
+          class="nav-link"
+        ></a>
+      </nav>
+    </header>
+
+    <video
+      src="https://youtu.be/y8Yv4pnO7qc"
+      id="video"
+    ></video>
+    <main id="main">
+      <form
+        action="https://www.freecodecamp.com/email-submit"
+        id="form"
+      >
+        <label for="email">
+          Email
+          <input
+            type="email"
+            required
+            id="email"
+            placeholder="email"
+            name="email"
+          />
+        </label>
+        <input
+          type="submit"
+          value="Submit"
+          id="submit"
+        />
+      </form>
+    </main>
+    <footer id="footer"></footer>
+  </body>
+</html>

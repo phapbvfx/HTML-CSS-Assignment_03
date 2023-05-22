@@ -1,0 +1,16 @@
+main#main {
+  margin: 0 auto;
+  width: 1200px;
+}
+#img-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+img {
+  display: block;
+}
+#image {
+  max-width: 100%;
+  height: auto;
+}

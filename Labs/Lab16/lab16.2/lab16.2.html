@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>FreeCodeCamp Survey For</title>
+    <link
+      rel="stylesheet"
+      href="lab16.2.css"
+    />
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+    <form
+      action=""
+      id="survey-form"
+    >
+      <label
+        for="name"
+        id="name-label"
+        >Name
+
+        <input
+          type="text"
+          id="name"
+          required
+          placeholder="name"
+        />
+      </label>
+      <label
+        for="email"
+        id="email-label"
+        >Email
+        <input
+          type="email"
+          id="email"
+          required
+          placeholder="email"
+        />
+      </label>
+
+      <label
+        for="number"
+        id="number-label"
+        >Number
+
+        <input
+          type="number"
+          id="number"
+          min="5"
+          max="10"
+          placeholder="number"
+        />
+      </label>
+
+      <select
+        name="chooses"
+        id="dropdown"
+      >
+        <option value="1">Option1</option>
+        <option value="2">Option2</option>
+      </select>
+
+      <label for="id1">
+        <input
+          type="radio"
+          name="radio"
+          value="definitely"
+          id="id1"
+        />
+        Definitely
+      </label>
+
+      <label for="id2">
+        <input
+          type="radio"
+          name="radio"
+          id="id2"
+          value="maybe"
+        />
+        Maybe
+      </label>
+
+      <label for="id3">
+        <input
+          type="checkbox"
+          value="hai"
+          id="id3"
+        />
+        Frontend
+      </label>
+
+      <label id="id4">
+        <input
+          type="checkbox"
+          value="hair"
+          id="id4"
+        />
+        Backend
+      </label>
+
+      <label for="id5">
+        <input
+          type="checkbox"
+          value="hairs"
+          id="id5"
+        />
+        FullStack
+      </label>
+      <textarea
+        name=""
+        id=""
+        cols="30"
+        rows="10"
+      ></textarea>
+
+      <button id="submit">Submit</button>
+    </form>
+  </body>
+</html>
