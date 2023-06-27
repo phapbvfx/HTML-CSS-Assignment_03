@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    p.p1 {
+        color:red !important;
+        text-transform: uppercase;
+    }
+    .item{
+        float: left;
+        width: calc(100% / 3);
+        background-color:#ccc;
+        padding: 5px;
+    }
+    .item p{
+        background-color: red;
+    }
+    .item:last-of-type{
+        width: 10%;
+    }
+    @media screen and (min-width: 1080px) {
+        /* desktop */
+        body{
+            background-color: red;
+        }
+        
+    }
+    @media screen and (max-width: 1080px) {
+        /* tablet */
+        body{
+            background-color: green;
+        }
+        
+    }
+    @media screen and (max-width: 768px) {
+        /* mobile */
+        body{
+            background-color: yellow;
+        }
+        
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="item">
+            <p>add</p>
+        </div>
+        <div class="item"><p>add</p></div>
+        <div class="item"><p>add</p></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quo quos vel dicta quia dolore quam nihil, magnam labore, rem repudiandae odio earum, totam non corporis expedita nobis reiciendis doloremque?</p>
+    </div>
+</body>
+</html>
